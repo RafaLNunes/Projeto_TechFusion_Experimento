@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TechFusion_Vendas
-build_property.ProjectDir = C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion\TechFusion_Vendas\TechFusion_Vendas\
+build_property.ProjectDir = C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

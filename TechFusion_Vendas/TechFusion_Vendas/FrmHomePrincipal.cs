@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Backup2;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -136,7 +137,7 @@ namespace TechFusion_Vendas
 
         private void button9_Click(object sender, EventArgs e)
         {
-            FrmHardware hardware = new FrmHardware();
+            Form1 hardware = new Form1();
             this.Hide();
             hardware.ShowDialog();
         }
@@ -165,6 +166,11 @@ namespace TechFusion_Vendas
         private void FrmHomePrincipal_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void panel12_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

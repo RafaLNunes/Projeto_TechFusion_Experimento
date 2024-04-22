@@ -4,6 +4,18 @@
     <Compile Update="clRouderPB.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FrmAviso.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -16,7 +28,7 @@
     <Compile Update="FrmExplicacaoprincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FrmHardware.cs">
+    <Compile Update="hard_base.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmHomeInicial.cs">

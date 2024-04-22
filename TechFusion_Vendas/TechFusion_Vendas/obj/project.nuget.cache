@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "40M6fDIocHcq0M2gtn85/ppKcUZCgBDh9uB3Hb0qaJDoFaC2T44u9w42sCjvVCQXfz1fXm9bEwJXLF7nAjo/Qg==",
+  "dgSpecHash": "BJCf/mgwUuehKBVw+IcQRZUVpxar04/XO/TNGYTP0hao/oFLgcTKwVP1TKm2TBCIaIqzi6CEYvuR3r3fm9/Z4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_TechFusion\\TechFusion_Vendas\\TechFusion_Vendas\\TechFusion_Vendas.csproj",
+  "projectFilePath": "C:\\Users\\Aluno\\Documents\\GitHub\\Projeto_TechFusion_Experimento\\TechFusion_Vendas\\TechFusion_Vendas\\TechFusion_Vendas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aluno\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",
