@@ -9,7 +9,9 @@ namespace Backup2
 
         Image produto;
 
-
+        bool sidebarbool;
+        bool homebool;
+        bool salebool;
 
         public HardWare()
         {
@@ -204,5 +206,72 @@ namespace Backup2
         {
             Application.Exit();
         }
+
+        private void SideBarTimer_Tick(object sender, EventArgs e)
+        {
+            if (sidebarbool)
+            {
+                SideBar.Width -= 10;
+                if (SideBar.Width == SideBar.MinimumSize.Width)
+                {
+                    sidebarbool = false;
+                    SideBarTimer.Stop();
+                }
+            }
+            else
+            {
+                SideBar.Width += 10;
+                if (SideBar.Width == SideBar.MaximumSize.Width)
+                {
+                    sidebarbool = true;
+                    SideBarTimer.Stop();
+                }
+            }
+        }
+
+        private void HomeTimer_Tick(object sender, EventArgs e)
+        {
+            if (homebool)
+            {
+                HomePainel.Height += 10;
+                if (HomePainel.Height == HomePainel.MaximumSize.Height)
+                {
+                    homebool = false;
+                    HomeTimer.Stop();
+                }
+            }
+            else
+            {
+                HomePainel.Height -= 10;
+                if (HomePainel.Height == HomePainel.MinimumSize.Height)
+                {
+                    homebool = true;
+                    HomeTimer.Stop();
+                }
+            }
+        }
+
+        private void SaleTimer_Tick(object sender, EventArgs e)
+        {
+            if (salebool)
+            {
+                salepainel.Height += 10;
+                if (salepainel.Height == salepainel.MaximumSize.Height)
+                {
+                    salebool = false;
+                    SaleTimer.Stop();
+                }
+            }
+            else
+            {
+                salepainel.Height -= 10;
+                if (salepainel.Height == salepainel.MinimumSize.Height)
+                {
+                    salebool = true;
+                    SaleTimer.Stop();
+                }
+            }
+        }
+
     }
 }

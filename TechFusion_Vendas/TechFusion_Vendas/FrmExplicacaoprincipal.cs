@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Backup2;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -125,7 +126,7 @@ namespace TechFusion_Vendas
         private void button6_Click(object sender, EventArgs e)
         {
 
-            FrmSoftware soft = new FrmSoftware();
+            comprasoft soft = new comprasoft();
             this.Hide();
             soft.ShowDialog();
         }
@@ -140,7 +141,7 @@ namespace TechFusion_Vendas
 
         private void button9_Click(object sender, EventArgs e)
         {
-            FrmHardware hardware = new FrmHardware();
+            HardWare hardware = new HardWare();
             this.Hide();
             hardware.ShowDialog();
         }
@@ -155,9 +156,9 @@ namespace TechFusion_Vendas
 
         private void button3_Click(object sender, EventArgs e)
         {
-            FrmUserPrincipal user = new FrmUserPrincipal();
+            Frmexplicacao exps = new Frmexplicacao();
             this.Hide();
-            user.ShowDialog();
+            exps.ShowDialog();
         }
 
         private void button10_Click(object sender, EventArgs e)
