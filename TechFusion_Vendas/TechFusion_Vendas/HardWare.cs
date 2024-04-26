@@ -1,6 +1,7 @@
 using Csharp_and_Database;
 using MySqlX.XDevAPI;
 using System.Data;
+using TechFusion_Vendas;
 
 namespace Backup2
 {
@@ -9,9 +10,7 @@ namespace Backup2
 
         Image produto;
 
-        bool sidebarbool;
-        bool homebool;
-        bool salebool;
+
 
         public HardWare()
         {
@@ -209,69 +208,29 @@ namespace Backup2
 
         private void SideBarTimer_Tick(object sender, EventArgs e)
         {
-            if (sidebarbool)
-            {
-                SideBar.Width -= 10;
-                if (SideBar.Width == SideBar.MinimumSize.Width)
-                {
-                    sidebarbool = false;
-                    SideBarTimer.Stop();
-                }
-            }
-            else
-            {
-                SideBar.Width += 10;
-                if (SideBar.Width == SideBar.MaximumSize.Width)
-                {
-                    sidebarbool = true;
-                    SideBarTimer.Stop();
-                }
-            }
+
         }
 
         private void HomeTimer_Tick(object sender, EventArgs e)
         {
-            if (homebool)
-            {
-                HomePainel.Height += 10;
-                if (HomePainel.Height == HomePainel.MaximumSize.Height)
-                {
-                    homebool = false;
-                    HomeTimer.Stop();
-                }
-            }
-            else
-            {
-                HomePainel.Height -= 10;
-                if (HomePainel.Height == HomePainel.MinimumSize.Height)
-                {
-                    homebool = true;
-                    HomeTimer.Stop();
-                }
-            }
+
         }
 
         private void SaleTimer_Tick(object sender, EventArgs e)
         {
-            if (salebool)
-            {
-                salepainel.Height += 10;
-                if (salepainel.Height == salepainel.MaximumSize.Height)
-                {
-                    salebool = false;
-                    SaleTimer.Stop();
-                }
-            }
-            else
-            {
-                salepainel.Height -= 10;
-                if (salepainel.Height == salepainel.MinimumSize.Height)
-                {
-                    salebool = true;
-                    SaleTimer.Stop();
-                }
-            }
+
         }
 
+        private void button9_Click(object sender, EventArgs e)
+        {
+            FrmHomePrincipal hm = new FrmHomePrincipal();
+            this.Hide();
+            hm.ShowDialog();
+        }
+
+        private void HardWare_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

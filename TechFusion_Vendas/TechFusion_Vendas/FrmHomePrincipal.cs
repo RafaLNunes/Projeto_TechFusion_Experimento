@@ -130,7 +130,7 @@ namespace TechFusion_Vendas
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Frmexplicacao exps = new Frmexplicacao();
+            FrmExplicacaoprincipal exps = new FrmExplicacaoprincipal();
             this.Hide();
             exps.ShowDialog();
         }
@@ -145,14 +145,14 @@ namespace TechFusion_Vendas
         private void button8_Click(object sender, EventArgs e)
         {
 
-            Frmexplicacao exps = new Frmexplicacao();
+            FrmExplicacaoprincipal exps = new FrmExplicacaoprincipal();
             this.Hide();
             exps.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Frmexplicacao exps = new Frmexplicacao();
+            FrmExplicacaoprincipal exps = new FrmExplicacaoprincipal();
             this.Hide();
             exps.ShowDialog();
         }
@@ -160,7 +160,7 @@ namespace TechFusion_Vendas
         private void button10_Click(object sender, EventArgs e)
         {
 
-            Frmexplicacao exps = new Frmexplicacao();
+            FrmExplicacaoprincipal exps = new FrmExplicacaoprincipal();
             this.Hide();
             exps.ShowDialog();
         }

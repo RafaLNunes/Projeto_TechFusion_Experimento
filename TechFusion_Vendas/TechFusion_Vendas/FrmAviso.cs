@@ -103,7 +103,8 @@ namespace TechFusion_Vendas
                               " com nome techFusion portanto perdoe-nos se estivermos usando os direitos autorais de terceiros." +
                               "\nDito isso A TechFusion apresenta...\nO seu aplicativo Desktop" +
                               "\n\n\n\nCaso concorde com tudo dito Click em OK para seguir adiante.\n\nMas caso não concorde ou deixou de ativar alguma função, então clique CANCELAR para fechar o aplicativo \n\n\n\n\nAgradeço a Atenção\n\n\n";
-
+            textAviso.Text += "Feito por:" +
+              "\nAdam\nGabriel\nRafael\n\nAuxiliado por:\nJorge\n\n\n\n";
         }
 
         private void label1_Click(object sender, EventArgs e)

@@ -124,7 +124,7 @@
             Pagar.UseVisualStyleBackColor = true;
             Pagar.Click += Pagar_Click;
             // 
-            // Form2
+            // pagsoft
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -138,8 +138,10 @@
             Controls.Add(comboBox1);
             Controls.Add(panel1);
             Controls.Add(pictureBox1);
-            Name = "Form2";
+            Name = "pagsoft";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form2";
+            FormClosed += pagsoft_FormClosed;
             Load += Form2_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

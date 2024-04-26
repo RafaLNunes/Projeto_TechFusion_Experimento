@@ -58,6 +58,8 @@
             SideBarTimer = new System.Windows.Forms.Timer(components);
             HomeTimer = new System.Windows.Forms.Timer(components);
             SaleTimer = new System.Windows.Forms.Timer(components);
+            pictureBox3 = new PictureBox();
+            pictureBox4 = new PictureBox();
             SideBar.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -73,6 +75,8 @@
             panel9.SuspendLayout();
             panel4.SuspendLayout();
             panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             SuspendLayout();
             // 
             // SideBar
@@ -444,12 +448,35 @@
             SaleTimer.Interval = 2;
             SaleTimer.Tick += SaleTimer_Tick;
             // 
+            // pictureBox3
+            // 
+            pictureBox3.BackColor = Color.Transparent;
+            pictureBox3.Image = Properties.Resources.Default_Crie_a_logo_da_minha_empresa_que_se_chama_TechFusion_c_1_removebg_preview__1_;
+            pictureBox3.Location = new Point(226, 271);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(508, 518);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 5;
+            pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = Properties.Resources.Default_Crie_a_logo_da_minha_empresa_que_se_chama_TechFusion_c_1_removebg_preview__2_;
+            pictureBox4.Location = new Point(409, 85);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(1017, 622);
+            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox4.TabIndex = 6;
+            pictureBox4.TabStop = false;
+            // 
             // FrmHomePrincipal
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1282, 828);
             Controls.Add(SideBar);
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox4);
             Name = "FrmHomePrincipal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmHomePrincipal";
@@ -471,6 +498,8 @@
             panel9.ResumeLayout(false);
             panel4.ResumeLayout(false);
             panel12.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ResumeLayout(false);
         }
 
@@ -505,5 +534,7 @@
         private Button button7;
         private Panel panel12;
         private Button button10;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox4;
     }
 }

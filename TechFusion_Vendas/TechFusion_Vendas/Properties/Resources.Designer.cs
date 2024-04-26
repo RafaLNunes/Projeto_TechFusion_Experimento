@@ -83,6 +83,38 @@ namespace TechFusion_Vendas.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Default_Crie_a_logo_da_minha_empresa_que_se_chama_TechFusion_c_1 {
+            get {
+                object obj = ResourceManager.GetObject("Default_Crie_a_logo_da_minha_empresa_que_se_chama_TechFusion_c_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Default_Crie_a_logo_da_minha_empresa_que_se_chama_TechFusion_c_1_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Default_Crie_a_logo_da_minha_empresa_que_se_chama_TechFusion_c_1-removebg-preview" +
+                        " (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Default_Crie_a_logo_da_minha_empresa_que_se_chama_TechFusion_c_1_removebg_preview__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Default_Crie_a_logo_da_minha_empresa_que_se_chama_TechFusion_c_1-removebg-preview" +
+                        " (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Design_sem_nome__1_ {
             get {
                 object obj = ResourceManager.GetObject("Design sem nome (1)", resourceCulture);

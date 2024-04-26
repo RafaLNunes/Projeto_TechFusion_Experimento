@@ -44,6 +44,9 @@
             button3 = new Button();
             SideBarTimer = new System.Windows.Forms.Timer(components);
             HomeTimer = new System.Windows.Forms.Timer(components);
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            pictureBox4 = new PictureBox();
             SideBar.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -52,6 +55,9 @@
             panel6.SuspendLayout();
             panel3.SuspendLayout();
             panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             SuspendLayout();
             // 
             // SideBar
@@ -60,6 +66,7 @@
             SideBar.Controls.Add(panel1);
             SideBar.Controls.Add(HomePainel);
             SideBar.Controls.Add(panel4);
+            SideBar.Controls.Add(pictureBox2);
             SideBar.Dock = DockStyle.Left;
             SideBar.Location = new Point(0, 0);
             SideBar.MaximumSize = new Size(270, 828);
@@ -235,12 +242,45 @@
             HomeTimer.Interval = 2;
             HomeTimer.Tick += HomeTimer_Tick;
             // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.Default_Crie_a_logo_da_minha_empresa_que_se_chama_TechFusion_c_1;
+            pictureBox2.Location = new Point(3, 275);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(267, 270);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 7;
+            pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BackColor = Color.Transparent;
+            pictureBox3.Image = Properties.Resources.Default_Crie_a_logo_da_minha_empresa_que_se_chama_TechFusion_c_1_removebg_preview__1_;
+            pictureBox3.Location = new Point(175, 109);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(508, 518);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 8;
+            pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = Properties.Resources.Default_Crie_a_logo_da_minha_empresa_que_se_chama_TechFusion_c_1_removebg_preview__2_;
+            pictureBox4.Location = new Point(358, -77);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(1017, 622);
+            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox4.TabIndex = 9;
+            pictureBox4.TabStop = false;
+            // 
             // FrmHomeInicial
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1282, 828);
             Controls.Add(SideBar);
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox4);
             Name = "FrmHomeInicial";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Home";
@@ -255,6 +295,9 @@
             panel6.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ResumeLayout(false);
         }
 
@@ -275,5 +318,8 @@
         private Button button5;
         private System.Windows.Forms.Timer SideBarTimer;
         private System.Windows.Forms.Timer HomeTimer;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox4;
     }
 }

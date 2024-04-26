@@ -76,7 +76,8 @@ namespace Backup2
 
         private void Pagar_Click(object sender, EventArgs e)
         {
-            if (comboBox1.SelectedIndex == 0) {
+            if (comboBox1.SelectedIndex == 0)
+            {
                 CP.preco3 = CP.preco;
                 CP.desconto = CP.preco3 * 0.05;
             }
@@ -86,6 +87,11 @@ namespace Backup2
             }
             confsoft form3 = new confsoft(pct);
             form3.ShowDialog();
-    }
+        }
+
+        private void pagsoft_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -71,6 +71,7 @@ namespace Backup2
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox2);
             Name = "confsoft";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form3";
             FormClosed += confsoft_FormClosed;
             Load += confsoft_Load;

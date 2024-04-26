@@ -44,6 +44,9 @@
             button3 = new Button();
             SideBarTimer = new System.Windows.Forms.Timer(components);
             HomeTimer = new System.Windows.Forms.Timer(components);
+            textAviso = new Label();
+            flowLayoutPanel1 = new FlowLayoutPanel();
+            label2 = new Label();
             SideBar.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -52,6 +55,7 @@
             panel6.SuspendLayout();
             panel3.SuspendLayout();
             panel4.SuspendLayout();
+            flowLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // SideBar
@@ -234,16 +238,45 @@
             HomeTimer.Interval = 2;
             HomeTimer.Tick += HomeTimer_Tick;
             // 
+            // textAviso
+            // 
+            textAviso.AutoSize = true;
+            textAviso.Location = new Point(3, 0);
+            textAviso.Name = "textAviso";
+            textAviso.Size = new Size(50, 20);
+            textAviso.TabIndex = 4;
+            textAviso.Text = "label3";
+            // 
+            // flowLayoutPanel1
+            // 
+            flowLayoutPanel1.Controls.Add(textAviso);
+            flowLayoutPanel1.Location = new Point(493, 213);
+            flowLayoutPanel1.Name = "flowLayoutPanel1";
+            flowLayoutPanel1.Size = new Size(595, 558);
+            flowLayoutPanel1.TabIndex = 7;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(276, 46);
+            label2.Name = "label2";
+            label2.Size = new Size(50, 20);
+            label2.TabIndex = 6;
+            label2.Text = "label2";
+            // 
             // Frmexplicacao
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1282, 828);
+            Controls.Add(flowLayoutPanel1);
+            Controls.Add(label2);
             Controls.Add(SideBar);
             Name = "Frmexplicacao";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Frmexplicacao";
             FormClosed += Frmexplicacao_FormClosed;
+            Load += Frmexplicacao_Load;
             SideBar.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -253,7 +286,10 @@
             panel6.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel4.ResumeLayout(false);
+            flowLayoutPanel1.ResumeLayout(false);
+            flowLayoutPanel1.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -273,5 +309,8 @@
         private Button button3;
         private System.Windows.Forms.Timer SideBarTimer;
         private System.Windows.Forms.Timer HomeTimer;
+        private Label textAviso;
+        private FlowLayoutPanel flowLayoutPanel1;
+        private Label label2;
     }
 }

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(comprasoft));
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
@@ -55,35 +54,7 @@
             button6 = new Button();
             button7 = new Button();
             button8 = new Button();
-            SideBar = new FlowLayoutPanel();
-            panel1 = new Panel();
-            label9 = new Label();
-            pictureBox10 = new PictureBox();
-            HomePainel = new Panel();
-            panel7 = new Panel();
             button9 = new Button();
-            panel6 = new Panel();
-            button10 = new Button();
-            panel3 = new Panel();
-            button11 = new Button();
-            salepainel = new Panel();
-            panel10 = new Panel();
-            button12 = new Button();
-            panel5 = new Panel();
-            button13 = new Button();
-            panel11 = new Panel();
-            button14 = new Button();
-            panel8 = new Panel();
-            button15 = new Button();
-            panel9 = new Panel();
-            button16 = new Button();
-            panel4 = new Panel();
-            button17 = new Button();
-            panel12 = new Panel();
-            button18 = new Button();
-            SideBarTimer = new System.Windows.Forms.Timer(components);
-            HomeTimer = new System.Windows.Forms.Timer(components);
-            SaleTimer = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -93,21 +64,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
-            SideBar.SuspendLayout();
-            panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
-            HomePainel.SuspendLayout();
-            panel7.SuspendLayout();
-            panel6.SuspendLayout();
-            panel3.SuspendLayout();
-            salepainel.SuspendLayout();
-            panel10.SuspendLayout();
-            panel5.SuspendLayout();
-            panel11.SuspendLayout();
-            panel8.SuspendLayout();
-            panel9.SuspendLayout();
-            panel4.SuspendLayout();
-            panel12.SuspendLayout();
             SuspendLayout();
             // 
             // pictureBox1
@@ -389,370 +345,24 @@
             button8.UseVisualStyleBackColor = false;
             button8.Click += button8_Click;
             // 
-            // SideBar
-            // 
-            SideBar.BackColor = Color.FromArgb(189, 217, 223);
-            SideBar.Controls.Add(panel1);
-            SideBar.Controls.Add(HomePainel);
-            SideBar.Controls.Add(salepainel);
-            SideBar.Controls.Add(panel4);
-            SideBar.Controls.Add(panel12);
-            SideBar.Dock = DockStyle.Left;
-            SideBar.Location = new Point(0, 0);
-            SideBar.MaximumSize = new Size(270, 828);
-            SideBar.MinimumSize = new Size(57, 828);
-            SideBar.Name = "SideBar";
-            SideBar.Size = new Size(270, 828);
-            SideBar.TabIndex = 25;
-            // 
-            // panel1
-            // 
-            panel1.Controls.Add(label9);
-            panel1.Controls.Add(pictureBox10);
-            panel1.Location = new Point(3, 3);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(267, 104);
-            panel1.TabIndex = 1;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.BackColor = Color.Transparent;
-            label9.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label9.ForeColor = Color.White;
-            label9.Location = new Point(52, 43);
-            label9.Name = "label9";
-            label9.Size = new Size(72, 25);
-            label9.TabIndex = 3;
-            label9.Text = "Menu";
-            // 
-            // pictureBox10
-            // 
-            pictureBox10.Image = TechFusion_Vendas.Properties.Resources.wired_lineal_1326_command_window_line__1_;
-            pictureBox10.Location = new Point(3, 29);
-            pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(46, 53);
-            pictureBox10.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox10.TabIndex = 0;
-            pictureBox10.TabStop = false;
-            // 
-            // HomePainel
-            // 
-            HomePainel.Controls.Add(panel7);
-            HomePainel.Controls.Add(panel6);
-            HomePainel.Controls.Add(panel3);
-            HomePainel.Location = new Point(3, 113);
-            HomePainel.MaximumSize = new Size(266, 177);
-            HomePainel.MinimumSize = new Size(266, 75);
-            HomePainel.Name = "HomePainel";
-            HomePainel.Size = new Size(266, 75);
-            HomePainel.TabIndex = 4;
-            // 
-            // panel7
-            // 
-            panel7.BackColor = Color.FromArgb(154, 208, 204);
-            panel7.Controls.Add(button9);
-            panel7.Location = new Point(0, 127);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(266, 51);
-            panel7.TabIndex = 5;
-            // 
             // button9
             // 
-            button9.BackColor = Color.Transparent;
-            button9.FlatAppearance.BorderSize = 0;
-            button9.FlatStyle = FlatStyle.Flat;
-            button9.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            button9.ForeColor = Color.White;
-            button9.Image = TechFusion_Vendas.Properties.Resources.wired_lineal_187_suitcase;
-            button9.ImageAlign = ContentAlignment.MiddleLeft;
-            button9.Location = new Point(0, -56);
-            button9.Margin = new Padding(3, 4, 3, 4);
+            button9.BackColor = Color.FromArgb(189, 217, 223);
+            button9.Dock = DockStyle.Left;
+            button9.Location = new Point(0, 0);
             button9.Name = "button9";
-            button9.Size = new Size(266, 163);
-            button9.TabIndex = 2;
-            button9.Text = "        How it works";
-            button9.TextAlign = ContentAlignment.MiddleLeft;
+            button9.Size = new Size(196, 828);
+            button9.TabIndex = 26;
+            button9.Text = "Ir para Home";
             button9.UseVisualStyleBackColor = false;
-            // 
-            // panel6
-            // 
-            panel6.BackColor = Color.FromArgb(154, 208, 204);
-            panel6.Controls.Add(button10);
-            panel6.Location = new Point(0, 76);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(266, 51);
-            panel6.TabIndex = 4;
-            // 
-            // button10
-            // 
-            button10.BackColor = Color.Transparent;
-            button10.FlatAppearance.BorderSize = 0;
-            button10.FlatStyle = FlatStyle.Flat;
-            button10.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            button10.ForeColor = Color.White;
-            button10.Image = TechFusion_Vendas.Properties.Resources.wired_lineal_112_book1;
-            button10.ImageAlign = ContentAlignment.MiddleLeft;
-            button10.Location = new Point(0, -56);
-            button10.Margin = new Padding(3, 4, 3, 4);
-            button10.Name = "button10";
-            button10.Size = new Size(266, 163);
-            button10.TabIndex = 2;
-            button10.Text = "        About Us";
-            button10.TextAlign = ContentAlignment.MiddleLeft;
-            button10.UseVisualStyleBackColor = false;
-            // 
-            // panel3
-            // 
-            panel3.BackColor = Color.FromArgb(189, 217, 223);
-            panel3.Controls.Add(button11);
-            panel3.Location = new Point(0, 1);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(266, 75);
-            panel3.TabIndex = 2;
-            // 
-            // button11
-            // 
-            button11.BackColor = Color.Transparent;
-            button11.FlatAppearance.BorderSize = 0;
-            button11.FlatStyle = FlatStyle.Flat;
-            button11.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            button11.ForeColor = Color.White;
-            button11.Image = TechFusion_Vendas.Properties.Resources.wired_lineal_63_home__1_;
-            button11.ImageAlign = ContentAlignment.MiddleLeft;
-            button11.Location = new Point(0, -41);
-            button11.Margin = new Padding(3, 4, 3, 4);
-            button11.Name = "button11";
-            button11.Size = new Size(266, 163);
-            button11.TabIndex = 2;
-            button11.Text = "        Home";
-            button11.TextAlign = ContentAlignment.MiddleLeft;
-            button11.UseVisualStyleBackColor = false;
-            // 
-            // salepainel
-            // 
-            salepainel.Controls.Add(panel10);
-            salepainel.Controls.Add(panel5);
-            salepainel.Controls.Add(panel11);
-            salepainel.Controls.Add(panel8);
-            salepainel.Controls.Add(panel9);
-            salepainel.Location = new Point(3, 194);
-            salepainel.MaximumSize = new Size(266, 277);
-            salepainel.MinimumSize = new Size(266, 75);
-            salepainel.Name = "salepainel";
-            salepainel.Size = new Size(266, 75);
-            salepainel.TabIndex = 5;
-            // 
-            // panel10
-            // 
-            panel10.BackColor = Color.FromArgb(154, 208, 204);
-            panel10.Controls.Add(button12);
-            panel10.Location = new Point(0, 229);
-            panel10.Name = "panel10";
-            panel10.Size = new Size(266, 51);
-            panel10.TabIndex = 7;
-            // 
-            // button12
-            // 
-            button12.BackColor = Color.Transparent;
-            button12.FlatAppearance.BorderSize = 0;
-            button12.FlatStyle = FlatStyle.Flat;
-            button12.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            button12.ForeColor = Color.White;
-            button12.Image = TechFusion_Vendas.Properties.Resources.wired_lineal_1331_repository;
-            button12.ImageAlign = ContentAlignment.MiddleLeft;
-            button12.Location = new Point(0, -56);
-            button12.Margin = new Padding(3, 4, 3, 4);
-            button12.Name = "button12";
-            button12.Size = new Size(266, 163);
-            button12.TabIndex = 2;
-            button12.Text = "        Cloud";
-            button12.TextAlign = ContentAlignment.MiddleLeft;
-            button12.UseVisualStyleBackColor = false;
-            // 
-            // panel5
-            // 
-            panel5.BackColor = Color.FromArgb(154, 208, 204);
-            panel5.Controls.Add(button13);
-            panel5.Location = new Point(0, 127);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(266, 51);
-            panel5.TabIndex = 5;
-            // 
-            // button13
-            // 
-            button13.BackColor = Color.Transparent;
-            button13.FlatAppearance.BorderSize = 0;
-            button13.FlatStyle = FlatStyle.Flat;
-            button13.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            button13.ForeColor = Color.White;
-            button13.Image = TechFusion_Vendas.Properties.Resources.wired_lineal_57_server;
-            button13.ImageAlign = ContentAlignment.MiddleLeft;
-            button13.Location = new Point(0, -56);
-            button13.Margin = new Padding(3, 4, 3, 4);
-            button13.Name = "button13";
-            button13.Size = new Size(266, 163);
-            button13.TabIndex = 2;
-            button13.Text = "        Redes";
-            button13.TextAlign = ContentAlignment.MiddleLeft;
-            button13.UseVisualStyleBackColor = false;
-            // 
-            // panel11
-            // 
-            panel11.BackColor = Color.FromArgb(154, 208, 204);
-            panel11.Controls.Add(button14);
-            panel11.Location = new Point(0, 178);
-            panel11.Name = "panel11";
-            panel11.Size = new Size(266, 51);
-            panel11.TabIndex = 6;
-            // 
-            // button14
-            // 
-            button14.BackColor = Color.Transparent;
-            button14.FlatAppearance.BorderSize = 0;
-            button14.FlatStyle = FlatStyle.Flat;
-            button14.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            button14.ForeColor = Color.White;
-            button14.Image = TechFusion_Vendas.Properties.Resources.wired_lineal_27_globe;
-            button14.ImageAlign = ContentAlignment.MiddleLeft;
-            button14.Location = new Point(0, -56);
-            button14.Margin = new Padding(3, 4, 3, 4);
-            button14.Name = "button14";
-            button14.Size = new Size(266, 163);
-            button14.TabIndex = 2;
-            button14.Text = "        Hardware";
-            button14.TextAlign = ContentAlignment.MiddleLeft;
-            button14.UseVisualStyleBackColor = false;
-            // 
-            // panel8
-            // 
-            panel8.BackColor = Color.FromArgb(154, 208, 204);
-            panel8.Controls.Add(button15);
-            panel8.Location = new Point(0, 76);
-            panel8.Name = "panel8";
-            panel8.Size = new Size(266, 51);
-            panel8.TabIndex = 4;
-            // 
-            // button15
-            // 
-            button15.BackColor = Color.Transparent;
-            button15.FlatAppearance.BorderSize = 0;
-            button15.FlatStyle = FlatStyle.Flat;
-            button15.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            button15.ForeColor = Color.White;
-            button15.Image = TechFusion_Vendas.Properties.Resources.wired_lineal_726_wireless_connection;
-            button15.ImageAlign = ContentAlignment.MiddleLeft;
-            button15.Location = new Point(0, -56);
-            button15.Margin = new Padding(3, 4, 3, 4);
-            button15.Name = "button15";
-            button15.Size = new Size(266, 163);
-            button15.TabIndex = 2;
-            button15.Text = "        Software";
-            button15.TextAlign = ContentAlignment.MiddleLeft;
-            button15.UseVisualStyleBackColor = false;
-            // 
-            // panel9
-            // 
-            panel9.BackColor = Color.FromArgb(189, 217, 223);
-            panel9.Controls.Add(button16);
-            panel9.Location = new Point(0, 1);
-            panel9.Name = "panel9";
-            panel9.Size = new Size(266, 75);
-            panel9.TabIndex = 2;
-            // 
-            // button16
-            // 
-            button16.BackColor = Color.Transparent;
-            button16.FlatAppearance.BorderSize = 0;
-            button16.FlatStyle = FlatStyle.Flat;
-            button16.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            button16.ForeColor = Color.White;
-            button16.Image = TechFusion_Vendas.Properties.Resources.wired_lineal_153_bar_chart;
-            button16.ImageAlign = ContentAlignment.MiddleLeft;
-            button16.Location = new Point(0, -41);
-            button16.Margin = new Padding(3, 4, 3, 4);
-            button16.Name = "button16";
-            button16.Size = new Size(266, 163);
-            button16.TabIndex = 2;
-            button16.Text = "        Sale";
-            button16.TextAlign = ContentAlignment.MiddleLeft;
-            button16.UseVisualStyleBackColor = false;
-            // 
-            // panel4
-            // 
-            panel4.BackColor = Color.FromArgb(189, 217, 223);
-            panel4.Controls.Add(button17);
-            panel4.Location = new Point(3, 275);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(266, 75);
-            panel4.TabIndex = 3;
-            // 
-            // button17
-            // 
-            button17.BackColor = Color.Transparent;
-            button17.FlatAppearance.BorderSize = 0;
-            button17.FlatStyle = FlatStyle.Flat;
-            button17.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            button17.ForeColor = Color.White;
-            button17.Image = TechFusion_Vendas.Properties.Resources.wired_lineal_21_avatar;
-            button17.ImageAlign = ContentAlignment.MiddleLeft;
-            button17.Location = new Point(0, -41);
-            button17.Margin = new Padding(3, 4, 3, 4);
-            button17.Name = "button17";
-            button17.Size = new Size(266, 163);
-            button17.TabIndex = 2;
-            button17.Text = "        User";
-            button17.TextAlign = ContentAlignment.MiddleLeft;
-            button17.UseVisualStyleBackColor = false;
-            // 
-            // panel12
-            // 
-            panel12.BackColor = Color.FromArgb(189, 217, 223);
-            panel12.Controls.Add(button18);
-            panel12.Location = new Point(3, 356);
-            panel12.Name = "panel12";
-            panel12.Size = new Size(266, 75);
-            panel12.TabIndex = 6;
-            // 
-            // button18
-            // 
-            button18.BackColor = Color.Transparent;
-            button18.FlatAppearance.BorderSize = 0;
-            button18.FlatStyle = FlatStyle.Flat;
-            button18.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            button18.ForeColor = Color.White;
-            button18.Image = TechFusion_Vendas.Properties.Resources.wired_lineal_1330_rest_api__4_;
-            button18.ImageAlign = ContentAlignment.MiddleLeft;
-            button18.Location = new Point(0, -41);
-            button18.Margin = new Padding(3, 4, 3, 4);
-            button18.Name = "button18";
-            button18.Size = new Size(266, 163);
-            button18.TabIndex = 2;
-            button18.Text = "        Setting";
-            button18.TextAlign = ContentAlignment.MiddleLeft;
-            button18.UseVisualStyleBackColor = false;
-            // 
-            // SideBarTimer
-            // 
-            SideBarTimer.Interval = 2;
-            SideBarTimer.Tick += SideBarTimer_Tick;
-            // 
-            // HomeTimer
-            // 
-            HomeTimer.Interval = 2;
-            HomeTimer.Tick += HomeTimer_Tick;
-            // 
-            // SaleTimer
-            // 
-            SaleTimer.Interval = 2;
-            SaleTimer.Tick += SaleTimer_Tick;
+            button9.Click += button9_Click;
             // 
             // comprasoft
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1282, 828);
-            Controls.Add(SideBar);
+            Controls.Add(button9);
             Controls.Add(button8);
             Controls.Add(button7);
             Controls.Add(button6);
@@ -781,6 +391,7 @@
             Name = "comprasoft";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
+            FormClosed += comprasoft_FormClosed;
             Load += comprasoft_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
@@ -791,22 +402,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
-            SideBar.ResumeLayout(false);
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
-            HomePainel.ResumeLayout(false);
-            panel7.ResumeLayout(false);
-            panel6.ResumeLayout(false);
-            panel3.ResumeLayout(false);
-            salepainel.ResumeLayout(false);
-            panel10.ResumeLayout(false);
-            panel5.ResumeLayout(false);
-            panel11.ResumeLayout(false);
-            panel8.ResumeLayout(false);
-            panel9.ResumeLayout(false);
-            panel4.ResumeLayout(false);
-            panel12.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -838,34 +433,6 @@
         private Button button6;
         private Button button7;
         private Button button8;
-        private FlowLayoutPanel SideBar;
-        private Panel panel1;
-        private Label label9;
-        private PictureBox pictureBox10;
-        private Panel HomePainel;
-        private Panel panel7;
         private Button button9;
-        private Panel panel6;
-        private Button button10;
-        private Panel panel3;
-        private Button button11;
-        private Panel salepainel;
-        private Panel panel10;
-        private Button button12;
-        private Panel panel5;
-        private Button button13;
-        private Panel panel11;
-        private Button button14;
-        private Panel panel8;
-        private Button button15;
-        private Panel panel9;
-        private Button button16;
-        private Panel panel4;
-        private Button button17;
-        private Panel panel12;
-        private Button button18;
-        private System.Windows.Forms.Timer SideBarTimer;
-        private System.Windows.Forms.Timer HomeTimer;
-        private System.Windows.Forms.Timer SaleTimer;
     }
 }
