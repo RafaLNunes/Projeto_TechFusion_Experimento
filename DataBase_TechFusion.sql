@@ -51,8 +51,6 @@ create table carrinho(
 insert into perfil(cargo) values("ADM"), ("Gerente"), ("Cliente"),("Revendedor"),("Técnico");
 insert into produto(Nome_prod, preco_prod) values("Servidor HP Proliant DL360", 12600.00), ("Servidor Dell PowerEdge R720", 10000.00), ("Servidor HP Proliant ML350 G8", 5100.00), ("Servidor Dell PowerEdge T630", 13000.00), ("Servidor Dell PowerEdge R420", 6200.00), ("Servidor Hp Proliant DL380 G7", 4200.00), ("Servidor Dell PowerEdge R740", 25300.00), ("Servidor Dell PowerEdge R450", 16450.00);
 insert into produto_soft(Nome_produto, preco_produto) values ("Software Word Pacote Office",791.00), ("Software Powerpoint Pacote Office",791.00), ("Software Excel Pacote Office",791.00), ("Software OneNote Pacote Office",791.00), ("Software Outlook Pacote Office",791.00),  ("Asssinatura Mensal Pessoal Office 365",7.00),("Asssinatura Mensal Family Office 365",9.00),("Asssinatura Anual Family Office 365",72.00);
-
-select * from fornecedor;
 select * from produto;
 select * from perfil;
 select * from usuario;
