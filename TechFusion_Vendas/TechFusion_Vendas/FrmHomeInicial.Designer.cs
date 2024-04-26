@@ -42,9 +42,9 @@
             button2 = new Button();
             panel4 = new Panel();
             button3 = new Button();
+            pictureBox2 = new PictureBox();
             SideBarTimer = new System.Windows.Forms.Timer(components);
             HomeTimer = new System.Windows.Forms.Timer(components);
-            pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
             pictureBox4 = new PictureBox();
             SideBar.SuspendLayout();
@@ -232,16 +232,6 @@
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
-            // SideBarTimer
-            // 
-            SideBarTimer.Interval = 2;
-            SideBarTimer.Tick += SideBarTimer_Tick;
-            // 
-            // HomeTimer
-            // 
-            HomeTimer.Interval = 2;
-            HomeTimer.Tick += HomeTimer_Tick;
-            // 
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.Default_Crie_a_logo_da_minha_empresa_que_se_chama_TechFusion_c_1;
@@ -251,6 +241,16 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 7;
             pictureBox2.TabStop = false;
+            // 
+            // SideBarTimer
+            // 
+            SideBarTimer.Interval = 2;
+            SideBarTimer.Tick += SideBarTimer_Tick;
+            // 
+            // HomeTimer
+            // 
+            HomeTimer.Interval = 2;
+            HomeTimer.Tick += HomeTimer_Tick;
             // 
             // pictureBox3
             // 
