@@ -39,9 +39,14 @@ namespace Backup2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
+            HardWare form1 = new HardWare();
             form1.ShowDialog();
 
+        }
+
+        private void Form3_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

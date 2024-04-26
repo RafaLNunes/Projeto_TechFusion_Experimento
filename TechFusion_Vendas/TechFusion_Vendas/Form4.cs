@@ -31,7 +31,7 @@ namespace Backup2
         public void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
-           
+
 
 
         }
@@ -45,7 +45,7 @@ namespace Backup2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 frm = new Form1();
+            HardWare frm = new HardWare();
             this.Hide();
             frm.ShowDialog();
 
@@ -59,6 +59,11 @@ namespace Backup2
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form4_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

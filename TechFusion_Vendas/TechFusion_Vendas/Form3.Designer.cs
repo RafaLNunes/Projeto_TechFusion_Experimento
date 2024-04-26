@@ -98,6 +98,7 @@
             Name = "Form3";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form3";
+            FormClosed += Form3_FormClosed;
             Load += Form3_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();

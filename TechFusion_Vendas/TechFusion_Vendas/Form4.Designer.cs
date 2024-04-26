@@ -72,7 +72,6 @@
             // 
             // pictureBox1
             // 
-            //pictureBox1.Image = Properties.Resources.Design_sem_nome__2_;
             pictureBox1.Location = new Point(633, 66);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(597, 645);
@@ -120,6 +119,7 @@
             Name = "Form4";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form4";
+            FormClosed += Form4_FormClosed;
             Load += Form4_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

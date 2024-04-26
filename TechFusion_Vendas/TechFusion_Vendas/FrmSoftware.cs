@@ -137,9 +137,10 @@ namespace TechFusion_Vendas
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FrmRedes rede = new FrmRedes();
+
+            Frmexplicacao exps = new Frmexplicacao();
             this.Hide();
-            rede.ShowDialog();
+            exps.ShowDialog();
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -152,9 +153,10 @@ namespace TechFusion_Vendas
 
         private void button8_Click(object sender, EventArgs e)
         {
-            FrmCloud cloud = new FrmCloud();
+
+            Frmexplicacao exps = new Frmexplicacao();
             this.Hide();
-            cloud.ShowDialog();
+            exps.ShowDialog();
 
         }
 
@@ -168,9 +170,10 @@ namespace TechFusion_Vendas
 
         private void button10_Click(object sender, EventArgs e)
         {
-            FrmSetting setting = new FrmSetting();
+
+            Frmexplicacao exps = new Frmexplicacao();
             this.Hide();
-            setting.ShowDialog();
+            exps.ShowDialog();
         }
     }
 }

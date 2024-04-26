@@ -52,13 +52,10 @@ C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas
 C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\obj\Debug\net6.0-windows\Backup2.Form3.resources
 C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\obj\Debug\net6.0-windows\Backup2.Form4.resources
 C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\obj\Debug\net6.0-windows\TechFusion_Vendas.FrmAviso.resources
-C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\obj\Debug\net6.0-windows\TechFusion_Vendas.FrmCloud.resources
 C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\obj\Debug\net6.0-windows\TechFusion_Vendas.Frmexplicacao.resources
 C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\obj\Debug\net6.0-windows\TechFusion_Vendas.FrmExplicacaoprincipal.resources
 C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\obj\Debug\net6.0-windows\TechFusion_Vendas.FrmHomeInicial.resources
 C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\obj\Debug\net6.0-windows\TechFusion_Vendas.FrmHomePrincipal.resources
-C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\obj\Debug\net6.0-windows\TechFusion_Vendas.FrmRedes.resources
-C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\obj\Debug\net6.0-windows\TechFusion_Vendas.FrmSetting.resources
 C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\obj\Debug\net6.0-windows\TechFusion_Vendas.FrmSoftware.resources
 C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\obj\Debug\net6.0-windows\TechFusion_Vendas.FrmUserInicial.resources
 C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\obj\Debug\net6.0-windows\TechFusion_Vendas.FrmUserPrincipal.resources
@@ -99,4 +96,4 @@ C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas
 C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\obj\Debug\net6.0-windows\TechFusion_Vendas.genruntimeconfig.cache
 C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\obj\Debug\net6.0-windows\ref\TechFusion_Vendas.dll
 C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\obj\Debug\net6.0-windows\TechFusion_Vendas.FrmHardware.resources
-C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\obj\Debug\net6.0-windows\Backup2.Form1.resources
+C:\Users\Aluno\Documents\GitHub\Projeto_TechFusion_Experimento\TechFusion_Vendas\TechFusion_Vendas\obj\Debug\net6.0-windows\Backup2.HardWare.resources
